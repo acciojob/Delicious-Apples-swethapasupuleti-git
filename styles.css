@@ -1,1 +1,46 @@
 /* your code here */
+.product {
+/* 	background-color: lightgreen; */
+	display:flex;
+	
+}
+.images {
+	display:flex;
+	list-style: none;
+}
+.images>li {
+	border: 1px solid skyblue;
+}
+.product__info {
+	background-color: white;
+	width:80%;
+	text-align:right;
+}
+.photo-main {
+	background-color:  yellowgreen;
+	margin:50px;
+	width:70%
+}
+.photo-main>img {
+	margin-left: -50px;
+	width:200px
+}
+.photo-album {
+	background-color:white;
+}
+.controls{
+	display:flex;
+	justify-content: space-between;
+}
+button {
+	color: white;
+	background-color:red;
+	border-radius:5px;
+}
+.variant>ul>li {
+	display:flex;
+	flex-direction: row;
+}
+.variant>ul>li>img {
+	width:50px;
+}
